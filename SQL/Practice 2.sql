@@ -134,6 +134,12 @@ from sales.Customers as c
 
 go
 
+SELECT DISTINCT custid,
+       ROW_NUMBER() OVER(PARTITION BY custid ORDER BY (SELECT 0)) AS rn
+FROM Sales.Orders;
+go
+
+
 SELECT 
     orderid,
     custid,
@@ -143,7 +149,7 @@ SELECT
     sum(freight) OVER (
         PARTITION BY custid 
         ORDER BY orderdate
-        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+        ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
     ) AS last_amount,
     
     LAST_VALUE(freight) OVER (
@@ -155,7 +161,7 @@ SELECT
     LAST_VALUE(freight) OVER (
         PARTITION BY custid 
         ORDER BY orderdate
-        ROWS BETWEEN UNBOUNDED PRECEDING AND 3 FOLLOWING
+        ---ROWS BETWEEN UNBOUNDED PRECEDING AND 3 FOLLOWING
     ) AS last_amount3
 
 FROM sales.Orders;
