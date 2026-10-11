@@ -1,0 +1,4 @@
+﻿type,file_path
+csv,sales_raw.csv
+csv,customers_raw.csv
+csv,marriage_divorce_eda.csv

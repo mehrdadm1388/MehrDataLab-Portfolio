@@ -1,0 +1,17 @@
+﻿Order ID,Customer ID,Order Date,Product Name,Quantity,Unit Price,City
+1001, C001 ,2025-01-05,Laptop,2,1250.00, Tehran 
+1002,C002,2025-01-07,Mouse,3,25.50,Tehran
+1003,C003,2025-01-08,Keyboard ,1,45, Shiraz
+1004,C001,2025-01-10,Laptop,1,1250,Tehran
+1005,C004,2025-01-12,Monitor,2,310.75, Tabriz
+1006,C005,2025-01-13,Mouse,,25.50,Mashhad
+1007,C002,2025-01-15,Keyboard,2,45.00,Tehran
+1008,C006,2025-01-18,Monitor,1,310.75, Isfahan 
+1009,C003,2025-01-20,Laptop,1,1250.00,Shiraz
+1010,C004,2025-01-22,Mouse,4,25.50,Tabriz
+1010,C004,2025-01-22,Mouse,4,25.50,Tabriz
+1011,C007,2025-01-25,Keyboard,2,45, Tehran 
+1012,C008,2025-01-27,Monitor,1,310.75,Mashhad
+1013,C009,2025-01-29,Laptop,1,bad_price,Tehran
+1014,C010,2025-01-30,Mouse,5,25.50, Shiraz 
+1015,C011,2025-02-02,Keyboard,1,45.00,Tehran

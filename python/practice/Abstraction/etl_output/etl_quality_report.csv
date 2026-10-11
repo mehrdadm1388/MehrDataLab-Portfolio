@@ -1,0 +1,5 @@
+﻿original_rows,final_rows,rows_removed,original_columns,final_columns,duplicates_removed,missing_values,source,output_file
+16,15,1,7,7,1,2,CSVSource,c:\Users\Mehdi\OneDrive\Desktop\python practice\Abstraction\etl_output\cleaned_sales_raw.csv
+13,12,1,5,5,1,1,CSVSource,c:\Users\Mehdi\OneDrive\Desktop\python practice\Abstraction\etl_output\cleaned_customers_raw.csv
+15,15,0,6,6,0,10,CSVSource,c:\Users\Mehdi\OneDrive\Desktop\python practice\Abstraction\etl_output\cleaned_marriage_divorce_eda.csv
+4,4,0,4,4,0,0,SQLSource,c:\Users\Mehdi\OneDrive\Desktop\python practice\Abstraction\etl_output\cleaned_Students.csv

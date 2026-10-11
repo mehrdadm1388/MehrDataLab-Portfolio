@@ -1,0 +1,13 @@
+﻿customer_id,customer_name,gender,city,age
+C001,Ali Ahmadi,Male,Tehran,34.0
+C002,Sara Mohammadi,Female,Tehran,29.0
+C003,Reza Karimi,Male,Shiraz,41.0
+C004,Neda Hosseini,Female,Tabriz,36.0
+C005,Omid Rahimi,Male,Mashhad,
+C006,Maryam Ahmadi,Female,Isfahan,31.0
+C007,Hassan Moradi,Male,Tehran,45.0
+C008,Leila Ebrahimi,Female,Mashhad,27.0
+C009,Mehdi Safari,Male,Tehran,38.0
+C010,Zahra Rezaei,Female,Shiraz,33.0
+C011,Pouya Hashemi,Male,Tehran,26.0
+C012,Mina Yousefi,Female,Qom,30.0
